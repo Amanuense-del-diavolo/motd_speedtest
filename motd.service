@@ -1,0 +1,7 @@
+[Unit]
+Description=Generate the Message Of The Day
+After=ppp@sip.service
+
+[Service]
+ExecStart=/etc/motd_scripts/motd_generator.sh
+Type=oneshot

@@ -1,0 +1,9 @@
+[Unit]
+Description=Generate the Message Of The Day
+
+[Timer]
+OnBootSec=6min
+OnUnitActiveSec=30m
+
+[Install]
+WantedBy=timers.target
